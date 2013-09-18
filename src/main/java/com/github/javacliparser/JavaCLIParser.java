@@ -15,7 +15,7 @@
  * License.  
  */
 
-package net.javacliparser;
+package com.github.javacliparser;
 
 import java.io.Serializable;
 import java.lang.reflect.Field;
@@ -23,6 +23,10 @@ import java.util.HashMap;
 import java.util.LinkedList;
 import java.util.List;
 import java.util.Map;
+
+import com.github.javacliparser.Configurable;
+import com.github.javacliparser.Option;
+import com.github.javacliparser.Options;
 
 /**
  * Java Command Line Interface Parser.

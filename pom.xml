@@ -14,16 +14,17 @@
   language governing permissions and limitations under the License.
 -->
 
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>net.javacliparser</groupId>
+    <groupId>com.github.javacliparser</groupId>
     <artifactId>javacliparser</artifactId>
-    <version>0.5-SNAPSHOT</version>
+    <version>0.5.0-SNAPSHOT</version>
     <packaging>jar</packaging>
 
     <name>SAMOA Java CLI Parser</name>
-    <url>http://samoa-project.net</url>
+    <url>https://github.com/javacliparser/javacliparser</url>
     <description>Command line parsing library for SAMOA</description>
 
     <licenses>
@@ -36,9 +37,9 @@
     </licenses>
 
     <scm>
-        <connection>scm:git:git@github.com:abifet/javacliparser.git</connection>
-        <developerConnection>scm:git:git@github.com:abifet/javacliparser.git</developerConnection>
-        <url>git@github.com:abifet/javacliparser.git</url>
+        <connection>scm:git:git@github.com:javacliparser/javacliparser.git</connection>
+        <developerConnection>scm:git:git@github.com:javacliparser/javacliparser.git</developerConnection>
+        <url>git@github.com:javacliparser/javacliparser.git</url>
     </scm>
 
     <developers>
@@ -47,7 +48,7 @@
             <name>Albert Bifet</name>
             <email>abifet@yahoo-inc.com</email>
             <timezone>+1</timezone>
-            <organization>Yahoo! Research</organization>
+            <organization>Yahoo Research</organization>
             <organizationUrl>http://labs.yahoo.com</organizationUrl>
         </developer>
         <developer>
@@ -55,7 +56,7 @@
             <name>Gianmarco De Francisci Morales</name>
             <email>gdfm@apache.org</email>
             <timezone>+1</timezone>
-            <organization>Yahoo! Research</organization>
+            <organization>Yahoo Research</organization>
             <organizationUrl>http://labs.yahoo.com</organizationUrl>
         </developer>
         <developer>
@@ -67,7 +68,7 @@
             <organizationUrl>http://www.waikato.ac.nz</organizationUrl>
         </developer>
     </developers>
-    
+
     <parent>
         <groupId>org.sonatype.oss</groupId>
         <artifactId>oss-parent</artifactId>
@@ -88,7 +89,6 @@
     </dependencies>
 
     <build>
-        <!--finalName>${project.groupId}-${project.artifactId}</finalName-->
         <plugins>
             <plugin>
                 <groupId>org.apache.rat</groupId>

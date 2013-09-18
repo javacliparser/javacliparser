@@ -15,7 +15,7 @@
  * License.  
  */
 
-package net.javacliparser;
+package com.github.javacliparser;
 
 import java.io.Serializable;
 import java.util.LinkedList;

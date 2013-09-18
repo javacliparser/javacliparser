@@ -15,7 +15,7 @@
  * License.  
  */
 
-package net.javacliparser;
+package com.github.javacliparser;
 
 import java.text.DecimalFormat;
 

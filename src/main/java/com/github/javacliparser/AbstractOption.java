@@ -14,7 +14,8 @@
  * language governing permissions and limitations under the
  * License.  
  */
-package net.javacliparser;
+package com.github.javacliparser;
+
 
 /**
  * Abstract option.

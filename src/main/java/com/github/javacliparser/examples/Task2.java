@@ -15,10 +15,10 @@
  * License.  
  */
 
-package net.javacliparser.examples;
+package com.github.javacliparser.examples;
 
-import net.javacliparser.Configurable;
-import net.javacliparser.IntOption;
+import com.github.javacliparser.Configurable;
+import com.github.javacliparser.IntOption;
 
 public class Task2 implements Configurable { 
 

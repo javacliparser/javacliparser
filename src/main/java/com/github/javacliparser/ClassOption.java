@@ -15,9 +15,13 @@
  * License.  
  */
 
-package net.javacliparser;
+package com.github.javacliparser;
 
 import java.io.File;
+
+import com.github.javacliparser.Configurable;
+import com.github.javacliparser.Option;
+import com.github.javacliparser.Options;
 
 /** 
  * Class option.

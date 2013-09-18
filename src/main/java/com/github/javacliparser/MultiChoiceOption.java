@@ -15,7 +15,8 @@
  * License.  
  */
 
-package net.javacliparser;
+package com.github.javacliparser;
+
 
 /**
  * Multi choice option.

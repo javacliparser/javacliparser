@@ -55,7 +55,7 @@
             <name>Gianmarco De Francisci Morales</name>
             <email>gdfm@apache.org</email>
             <timezone>+1</timezone>
-            <organization>Yahoo Research</organization>
+            <organization>Yahoo Labs</organization>
             <organizationUrl>http://labs.yahoo.com</organizationUrl>
         </developer>
         <developer>
@@ -89,6 +89,14 @@
 
     <build>
         <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <configuration>
+                    <source>1.7</source>
+                    <target>1.7</target>
+                </configuration>
+            </plugin>
             <plugin>
                 <groupId>org.apache.rat</groupId>
                 <artifactId>apache-rat-plugin</artifactId>
